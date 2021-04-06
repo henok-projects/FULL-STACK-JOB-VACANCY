@@ -7,11 +7,16 @@
     "@types/react-dom": "^17.0.3",
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "mdbreact": "^5.0.1",
     "react": "^16.14.0",
     "react-datepicker": "^2.5.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "peerDependencies": {
+      "react": ">=16.8.0",
+      "react-dom": ">=16.8.0"
+    }
   },
   "scripts": {
     "start": "react-scripts start",

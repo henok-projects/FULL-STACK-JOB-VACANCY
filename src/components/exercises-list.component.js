@@ -62,7 +62,10 @@ export default class ExercisesList extends Component {
               <th>Actions</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody style={{
+      backgroundColor: 'white'
+      // height: '0px'
+    }}>
             { this.exerciseList() }
           </tbody>
         </table>
